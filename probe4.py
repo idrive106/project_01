@@ -5,40 +5,40 @@
 # №       1 2 3 4 5 6 7 ... 100
 # Число   1 1 2 3 5 8 13 ... ?
  
-fib1, fib2 = 1, 1
+# fib1, fib2 = 1, 1
  
-search = input('Введите искомый номер последовательности: ')
-i = int(search) - 2
+# search = input('Введите искомый номер последовательности: ')
+# i = int(search) - 2
  
-while i > 0:
-    print(fib2)
-    fib1, fib2 = fib2, fib1 + fib2 
-    # print(f'Счетчик {i}')
-    i -= 1
+# while i > 0:
+#     print(fib2)
+#     fib1, fib2 = fib2, fib1 + fib2 
+#     # print(f'Счетчик {i}')
+#     i -= 1
  
-print(fib2)
+# print(fib2)
 
-# Словарь хранит ключ значение
-capitals = {}
-capitals['Россия'] = 'Москва'
-capitals['Италия'] = 'Рим'
+# # Словарь хранит ключ значение
+# capitals = {}
+# capitals['Россия'] = 'Москва'
+# capitals['Италия'] = 'Рим'
  
-print(capitals)
+# print(capitals)
 
-# Операторы цикла 
-# for
+# # Операторы цикла 
+# # for
  
-room_prices = [41, 94, 100, 7, 21, 92, 62, 49, 37, 17, ]
+# room_prices = [41, 94, 100, 7, 21, 92, 62, 49, 37, 17, ]
  
-# Через while
-# i = 0
-# while i < len(room_prices):
-#     print(room_prices[i])
-#     i += 1
+# # Через while
+# # i = 0
+# # while i < len(room_prices):
+# #     print(room_prices[i])
+# #     i += 1
  
-# через for
-for price in room_prices:
-    print(price)
+# # через for
+# for price in room_prices:
+#     print(price)
  
 # for ind in range(len(room_prices)):
 #     print(room_prices[ind])
